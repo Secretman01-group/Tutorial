@@ -11,7 +11,7 @@ state = {
 
 	history = {
 
-		owner = TUT
+		owner = RHI
 		add_core_of = TUT
 
 		victory_points = {
