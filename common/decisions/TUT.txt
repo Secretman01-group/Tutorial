@@ -1,0 +1,398 @@
+
+TUT_tutorial_category = {
+
+	tutorial_pp = {
+
+		icon = generic_political_address
+
+		available = {
+
+		}
+
+		visible = {
+
+		}
+		
+		
+		cost = 0
+		
+		complete_effect = {
+			country_event = tutorial.events.1
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	tutorial_stability = {
+
+		icon = generic_form_nation
+
+		available = {
+
+		}
+
+		visible = {
+
+		}
+		
+		
+		cost = 0
+		
+		complete_effect = {
+			country_event = tutorial.events.1
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	tutorial_war_support = {
+
+		icon = generic_prepare_civil_war
+
+		available = {
+
+		}
+
+		visible = {
+
+		}
+		
+		
+		cost = 0
+		
+		complete_effect = {
+			country_event = tutorial.events.1
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	tutorial_manpower = {
+
+		icon = generic_military
+		available = {
+
+		}
+
+		visible = {
+
+		}
+		
+		
+		cost = 0
+		
+		complete_effect = {
+			country_event = tutorial.events.1
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	tutorial_factories = {
+
+		icon = generic_factory
+		available = {
+
+		}
+
+		visible = {
+
+		}
+		
+		
+		cost = 0
+		
+		complete_effect = {
+			country_event = tutorial.events.1
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	tutorial_fuel = {
+
+		icon = oil
+		available = {
+
+		}
+
+		visible = {
+
+		}
+		
+		
+		cost = 0
+		
+		complete_effect = {
+			country_event = tutorial.events.1
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	tutorial_logistics = {
+
+		icon = generic_motorized
+		available = {
+
+		}
+
+		visible = {
+
+		}
+		
+		
+		cost = 0
+		
+		complete_effect = {
+			country_event = tutorial.events.1
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	tutorial_convoys = {
+
+		icon = generic_merge_plant_ship
+		available = {
+
+		}
+
+		visible = {
+
+		}
+		
+		
+		cost = 0
+		
+		complete_effect = {
+			country_event = tutorial.events.1
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	tutorial_decisions = {
+
+		icon = eng_trade_unions_support
+		available = {
+
+		}
+
+		visible = {
+
+		}
+		
+		
+		cost = 0
+		
+		complete_effect = {
+			country_event = tutorial.events.1
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	tutorial_agency = {
+
+		icon = SWI_expand_covert_operations
+		available = {
+
+		}
+
+		visible = {
+
+		}
+		
+		
+		cost = 0
+		
+		complete_effect = {
+			country_event = tutorial.events.1
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	tutorial_research = {
+
+		icon = generic_research
+		available = {
+
+		}
+
+		visible = {
+
+		}
+		
+		
+		cost = 0
+		
+		complete_effect = {
+			country_event = tutorial.events.1
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	tutorial_world_market = {
+
+		icon = hol_attract_foreign_investors
+		available = {
+
+		}
+
+		visible = {
+
+		}
+		
+		
+		cost = 0
+		
+		complete_effect = {
+			country_event = tutorial.events.1
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	tutorial_trade = {
+
+		icon = tungsten
+		available = {
+
+		}
+
+		visible = {
+
+		}
+		
+		
+		cost = 0
+		
+		complete_effect = {
+			country_event = tutorial.events.1
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	tutorial_construction = {
+
+		icon = generic_construction
+		available = {
+
+		}
+
+		visible = {
+
+		}
+		
+		
+		cost = 0
+		
+		complete_effect = {
+			country_event = tutorial.events.1
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	tutorial_production = {
+
+		icon = ger_military_buildup
+		available = {
+
+		}
+
+		visible = {
+
+		}
+		
+		
+		cost = 0
+		
+		complete_effect = {
+			country_event = tutorial.events.1
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	tutorial_deployment = {
+
+		icon = SWE_set_army_budget
+		available = {
+
+		}
+
+		visible = {
+
+		}
+		
+		
+		cost = 0
+		
+		complete_effect = {
+			country_event = tutorial.events.1
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	tutorial_officer_corps = {
+
+		icon = generic_army_support
+		available = {
+
+		}
+
+		visible = {
+
+		}
+		
+		
+		cost = 0
+		
+		complete_effect = {
+			country_event = tutorial.events.1
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+}

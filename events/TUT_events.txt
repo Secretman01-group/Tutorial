@@ -1,0 +1,34 @@
+﻿add_namespace = tutorial.events
+
+
+country_event = {
+	id = tutorial.events.1
+	title = "Политическая власть (политка)"
+	desc = tutorial.events.1.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Ок"
+		ai_chance = { factor = 0 }
+
+	}
+
+}
+
+country_event = {
+	id = tutorial.events.2
+	title = "Стабильность"
+	desc = tutorial.events.2.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Ок"
+		ai_chance = { factor = 0 }
+		
+	}
+
+}
+
+

@@ -1,0 +1,12 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_Top_Bar"
+		texturefile = "gfx/event_pictures/Top_Bar.dds"
+	}
+
+
+}
+
+
+
