@@ -13,6 +13,7 @@ TUT_tutorial_category = {
 
 		}
 		
+		priority = 10
 		
 		cost = 0
 		
@@ -37,11 +38,12 @@ TUT_tutorial_category = {
 
 		}
 		
+		priority = 10
 		
 		cost = 0
 		
 		complete_effect = {
-			country_event = tutorial.events.1
+			country_event = tutorial.events.2
 		}
 		
 		ai_will_do = {
@@ -61,11 +63,12 @@ TUT_tutorial_category = {
 
 		}
 		
+		priority = 10
 		
 		cost = 0
 		
 		complete_effect = {
-			country_event = tutorial.events.1
+			country_event = tutorial.events.3
 		}
 		
 		ai_will_do = {
@@ -84,11 +87,12 @@ TUT_tutorial_category = {
 
 		}
 		
+		priority = 10
 		
 		cost = 0
 		
 		complete_effect = {
-			country_event = tutorial.events.1
+			country_event = tutorial.events.4
 		}
 		
 		ai_will_do = {
@@ -107,11 +111,12 @@ TUT_tutorial_category = {
 
 		}
 		
+		priority = 10
 		
 		cost = 0
 		
 		complete_effect = {
-			country_event = tutorial.events.1
+			country_event = tutorial.events.5
 		}
 		
 		ai_will_do = {
@@ -130,11 +135,12 @@ TUT_tutorial_category = {
 
 		}
 		
+		priority = 2
 		
 		cost = 0
 		
 		complete_effect = {
-			country_event = tutorial.events.1
+			country_event = tutorial.events.6
 		}
 		
 		ai_will_do = {
@@ -153,11 +159,12 @@ TUT_tutorial_category = {
 
 		}
 		
+		priority = 2
 		
 		cost = 0
 		
 		complete_effect = {
-			country_event = tutorial.events.1
+			country_event = tutorial.events.7
 		}
 		
 		ai_will_do = {
@@ -176,11 +183,12 @@ TUT_tutorial_category = {
 
 		}
 		
+		priority = 2
 		
 		cost = 0
 		
 		complete_effect = {
-			country_event = tutorial.events.1
+			country_event = tutorial.events.8
 		}
 		
 		ai_will_do = {
@@ -199,11 +207,12 @@ TUT_tutorial_category = {
 
 		}
 		
+		priority = 10
 		
 		cost = 0
 		
 		complete_effect = {
-			country_event = tutorial.events.1
+			country_event = tutorial.events.9
 		}
 		
 		ai_will_do = {
@@ -222,11 +231,12 @@ TUT_tutorial_category = {
 
 		}
 		
+		priority = 2
 		
 		cost = 0
 		
 		complete_effect = {
-			country_event = tutorial.events.1
+			country_event = tutorial.events.10
 		}
 		
 		ai_will_do = {
@@ -245,11 +255,12 @@ TUT_tutorial_category = {
 
 		}
 		
+		priority = 10
 		
 		cost = 0
 		
 		complete_effect = {
-			country_event = tutorial.events.1
+			country_event = tutorial.events.11
 		}
 		
 		ai_will_do = {
@@ -268,11 +279,12 @@ TUT_tutorial_category = {
 
 		}
 		
+		priority = 2
 		
 		cost = 0
 		
 		complete_effect = {
-			country_event = tutorial.events.1
+			country_event = tutorial.events.12
 		}
 		
 		ai_will_do = {
@@ -291,11 +303,12 @@ TUT_tutorial_category = {
 
 		}
 		
+		priority = 2
 		
 		cost = 0
 		
 		complete_effect = {
-			country_event = tutorial.events.1
+			country_event = tutorial.events.13
 		}
 		
 		ai_will_do = {
@@ -314,11 +327,12 @@ TUT_tutorial_category = {
 
 		}
 		
+		priority = 10
 		
 		cost = 0
 		
 		complete_effect = {
-			country_event = tutorial.events.1
+			country_event = tutorial.events.14
 		}
 		
 		ai_will_do = {
@@ -337,11 +351,12 @@ TUT_tutorial_category = {
 
 		}
 		
+		priority = 10
 		
 		cost = 0
 		
 		complete_effect = {
-			country_event = tutorial.events.1
+			country_event = tutorial.events.15
 		}
 		
 		ai_will_do = {
@@ -360,11 +375,12 @@ TUT_tutorial_category = {
 
 		}
 		
+		priority = 10
 		
 		cost = 0
 		
 		complete_effect = {
-			country_event = tutorial.events.1
+			country_event = tutorial.events.16
 		}
 		
 		ai_will_do = {
@@ -383,11 +399,156 @@ TUT_tutorial_category = {
 
 		}
 		
+		priority = 2
 		
 		cost = 0
 		
 		complete_effect = {
-			country_event = tutorial.events.1
+			country_event = tutorial.events.17
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	tutorial_national_focus = {
+
+		icon = generic_nationalism
+		available = {
+
+		}
+
+		visible = {
+
+		}
+		
+		priority = 10
+		
+		cost = 0
+		
+		complete_effect = {
+			country_event = tutorial.events.18
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	tutorial_government = {
+
+		icon = generic_political_discourse
+		available = {
+
+		}
+
+		visible = {
+
+		}
+		
+		priority = 2
+		
+		cost = 0
+		
+		complete_effect = {
+			country_event = tutorial.events.19
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	tutorial_laws = {
+
+		icon = SOV_place_hq
+		available = {
+
+		}
+
+		visible = {
+
+		}
+		
+		priority = 10
+		
+		cost = 0
+		
+		complete_effect = {
+			country_event = tutorial.events.20
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	tutorial_mios = {
+
+		icon = generic_wreckers
+		available = {
+
+		}
+
+		visible = {
+
+		}
+		
+		priority = 1
+		
+		cost = 0
+		
+		complete_effect = {
+			country_event = tutorial.events.21
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	tutorial_divs_designer = {
+
+		icon = generic_protection
+		available = {
+
+		}
+
+		visible = {
+
+		}
+		
+		priority = 10
+		
+		cost = 0
+		
+		complete_effect = {
+			country_event = tutorial.events.22
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	tutorial_consumer_goods = {
+
+		icon = generic_consumer_goods
+		available = {
+
+		}
+
+		visible = {
+
+		}
+		
+		priority = 10
+		
+		cost = 0
+		
+		complete_effect = {
+			country_event = tutorial.events.23
 		}
 		
 		ai_will_do = {

@@ -31,4 +31,302 @@ country_event = {
 
 }
 
+country_event = {
+	id = tutorial.events.3
+	title = "Поддержка Войны"
+	desc = tutorial.events.3.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Ок"
+		ai_chance = { factor = 0 }
+		
+	}
 
+}
+
+country_event = {
+	id = tutorial.events.4
+	title = "Людские Ресурсы"
+	desc = tutorial.events.4.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Ок"
+		ai_chance = { factor = 0 }
+
+	}
+
+}
+
+country_event = {
+	id = tutorial.events.5
+	title = "Фабрики"
+	desc = tutorial.events.5.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Ок"
+		ai_chance = { factor = 0 }
+		
+	}
+
+}
+
+country_event = {
+	id = tutorial.events.6
+	title = "Решения"
+	desc = tutorial.events.6.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Ок"
+		ai_chance = { factor = 0 }
+		
+	}
+
+}
+
+country_event = {
+	id = tutorial.events.7
+	title = "Исследования"
+	desc = tutorial.events.7.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Ок"
+		ai_chance = { factor = 0 }
+
+	}
+
+}
+
+country_event = {
+	id = tutorial.events.8
+	title = "Строительство"
+	desc = tutorial.events.8.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Ок"
+		ai_chance = { factor = 0 }
+		
+	}
+
+}
+
+country_event = {
+	id = tutorial.events.9
+	title = "Производство"
+	desc = tutorial.events.9.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Ок"
+		ai_chance = { factor = 0 }
+		
+	}
+
+}
+
+country_event = {
+	id = tutorial.events.10
+	title = "Размещение Дивизий"
+	desc = tutorial.events.10.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Ок"
+		ai_chance = { factor = 0 }
+
+	}
+
+}
+
+country_event = {
+	id = tutorial.events.11
+	title = "Национальные Фокусы"
+	desc = tutorial.events.11.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Ок"
+		ai_chance = { factor = 0 }
+		
+	}
+
+}
+
+country_event = {
+	id = tutorial.events.12
+	title = "Законы"
+	desc = tutorial.events.12.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Ок"
+		ai_chance = { factor = 0 }
+		
+	}
+
+}
+
+country_event = {
+	id = tutorial.events.13
+	title = "Конструктор Дивизий"
+	desc = tutorial.events.13.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Ок"
+		ai_chance = { factor = 0 }
+
+	}
+
+}
+
+country_event = {
+	id = tutorial.events.14
+	title = "Товары Народного Потребления"
+	desc = tutorial.events.14.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Ок"
+		ai_chance = { factor = 0 }
+		
+	}
+
+}
+
+country_event = {
+	id = tutorial.events.15
+	title = "Топливо"
+	desc = tutorial.events.15.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Ок"
+		ai_chance = { factor = 0 }
+		
+	}
+
+}
+
+country_event = {
+	id = tutorial.events.16
+	title = "Требования логистики"
+	desc = tutorial.events.16.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Ок"
+		ai_chance = { factor = 0 }
+
+	}
+
+}
+
+country_event = {
+	id = tutorial.events.17
+	title = "Конвои"
+	desc = tutorial.events.17.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Ок"
+		ai_chance = { factor = 0 }
+		
+	}
+
+}
+
+country_event = {
+	id = tutorial.events.18
+	title = "Разведывательное Агенство"
+	desc = tutorial.events.18.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Ок"
+		ai_chance = { factor = 0 }
+		
+	}
+
+}
+
+country_event = {
+	id = tutorial.events.19
+	title = "Международный Рынок"
+	desc = tutorial.events.19.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Ок"
+		ai_chance = { factor = 0 }
+		
+	}
+
+}
+
+country_event = {
+	id = tutorial.events.20
+	title = "Торговля Ресурсами"
+	desc = tutorial.events.20.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Ок"
+		ai_chance = { factor = 0 }
+
+	}
+
+}
+
+country_event = {
+	id = tutorial.events.21
+	title = "Офицерский Корпус"
+	desc = tutorial.events.21.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Ок"
+		ai_chance = { factor = 0 }
+		
+	}
+
+}
+
+country_event = {
+	id = tutorial.events.22
+	title = "Правительство и Лидеры"
+	desc = tutorial.events.22.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Ок"
+		ai_chance = { factor = 0 }
+		
+	}
+
+}
