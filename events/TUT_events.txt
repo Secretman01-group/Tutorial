@@ -198,7 +198,7 @@ country_event = {
 
 country_event = {
 	id = tutorial.events.14
-	title = "Товары Народного Потребления"
+	title = "Военно-промышленные организации"
 	desc = tutorial.events.14.d
 	
 	is_triggered_only = yes
@@ -320,6 +320,66 @@ country_event = {
 	id = tutorial.events.22
 	title = "Правительство и Лидеры"
 	desc = tutorial.events.22.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Ок"
+		ai_chance = { factor = 0 }
+		
+	}
+
+}
+
+country_event = {
+	id = tutorial.events.23
+	title = "Товары Народного Потребления"
+	desc = tutorial.events.23.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Ок"
+		ai_chance = { factor = 0 }
+		
+	}
+
+}
+
+country_event = {
+	id = tutorial.events.24
+	title = "Гражданские Фабрики"
+	desc = tutorial.events.24.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Ок"
+		ai_chance = { factor = 0 }
+
+	}
+
+}
+
+country_event = {
+	id = tutorial.events.25
+	title = "Военные Фабрики"
+	desc = tutorial.events.25.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Ок"
+		ai_chance = { factor = 0 }
+		
+	}
+
+}
+
+country_event = {
+	id = tutorial.events.26
+	title = "Верфи"
+	desc = tutorial.events.26.d
 	
 	is_triggered_only = yes
 	
