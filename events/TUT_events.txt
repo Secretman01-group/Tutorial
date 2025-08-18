@@ -3,7 +3,7 @@
 
 country_event = {
 	id = tutorial.events.1
-	title = "Политическая власть (политка)"
+	title = tutorial.events.1.title
 	desc = tutorial.events.1.d
 	
 	is_triggered_only = yes
@@ -18,7 +18,7 @@ country_event = {
 
 country_event = {
 	id = tutorial.events.2
-	title = "Стабильность"
+	title = tutorial.events.2.title
 	desc = tutorial.events.2.d
 	
 	is_triggered_only = yes
@@ -33,7 +33,7 @@ country_event = {
 
 country_event = {
 	id = tutorial.events.3
-	title = "Поддержка Войны"
+	title = tutorial.events.3.title
 	desc = tutorial.events.3.d
 	
 	is_triggered_only = yes
@@ -48,7 +48,7 @@ country_event = {
 
 country_event = {
 	id = tutorial.events.4
-	title = "Людские Ресурсы"
+	title = tutorial.events.4.title
 	desc = tutorial.events.4.d
 	
 	is_triggered_only = yes
@@ -63,7 +63,7 @@ country_event = {
 
 country_event = {
 	id = tutorial.events.5
-	title = "Фабрики"
+	title = tutorial.events.5.title
 	desc = tutorial.events.5.d
 	
 	is_triggered_only = yes
@@ -78,7 +78,7 @@ country_event = {
 
 country_event = {
 	id = tutorial.events.6
-	title = "Решения"
+	title = tutorial.events.6.title
 	desc = tutorial.events.6.d
 	
 	is_triggered_only = yes
@@ -93,7 +93,7 @@ country_event = {
 
 country_event = {
 	id = tutorial.events.7
-	title = "Исследования"
+	title = tutorial.events.7.title
 	desc = tutorial.events.7.d
 	
 	is_triggered_only = yes
@@ -108,7 +108,7 @@ country_event = {
 
 country_event = {
 	id = tutorial.events.8
-	title = "Строительство"
+	title = tutorial.events.8.title
 	desc = tutorial.events.8.d
 	
 	is_triggered_only = yes
@@ -123,7 +123,7 @@ country_event = {
 
 country_event = {
 	id = tutorial.events.9
-	title = "Производство"
+	title = tutorial.events.9.title
 	desc = tutorial.events.9.d
 	
 	is_triggered_only = yes
@@ -138,7 +138,7 @@ country_event = {
 
 country_event = {
 	id = tutorial.events.10
-	title = "Размещение Дивизий"
+	title = tutorial.events.10.title
 	desc = tutorial.events.10.d
 	
 	is_triggered_only = yes
@@ -153,7 +153,7 @@ country_event = {
 
 country_event = {
 	id = tutorial.events.11
-	title = "Национальные Фокусы"
+	title = tutorial.events.11.title
 	desc = tutorial.events.11.d
 	
 	is_triggered_only = yes
@@ -168,7 +168,7 @@ country_event = {
 
 country_event = {
 	id = tutorial.events.12
-	title = "Законы"
+	title = tutorial.events.12.title
 	desc = tutorial.events.12.d
 	
 	is_triggered_only = yes
@@ -183,7 +183,7 @@ country_event = {
 
 country_event = {
 	id = tutorial.events.13
-	title = "Конструктор Дивизий"
+	title = tutorial.events.13.title
 	desc = tutorial.events.13.d
 	
 	is_triggered_only = yes
@@ -198,7 +198,7 @@ country_event = {
 
 country_event = {
 	id = tutorial.events.14
-	title = "Военно-промышленные организации"
+	title = tutorial.events.14.title
 	desc = tutorial.events.14.d
 	
 	is_triggered_only = yes
@@ -213,7 +213,7 @@ country_event = {
 
 country_event = {
 	id = tutorial.events.15
-	title = "Топливо"
+	title = tutorial.events.15.title
 	desc = tutorial.events.15.d
 	
 	is_triggered_only = yes
@@ -228,7 +228,7 @@ country_event = {
 
 country_event = {
 	id = tutorial.events.16
-	title = "Требования логистики"
+	title = tutorial.events.16.title
 	desc = tutorial.events.16.d
 	
 	is_triggered_only = yes
@@ -243,7 +243,7 @@ country_event = {
 
 country_event = {
 	id = tutorial.events.17
-	title = "Конвои"
+	title = tutorial.events.17.title
 	desc = tutorial.events.17.d
 	
 	is_triggered_only = yes
@@ -258,7 +258,7 @@ country_event = {
 
 country_event = {
 	id = tutorial.events.18
-	title = "Разведывательное Агенство"
+	title = tutorial.events.18.title
 	desc = tutorial.events.18.d
 	
 	is_triggered_only = yes
@@ -273,7 +273,7 @@ country_event = {
 
 country_event = {
 	id = tutorial.events.19
-	title = "Международный Рынок"
+	title = tutorial.events.19.title
 	desc = tutorial.events.19.d
 	
 	is_triggered_only = yes
@@ -288,7 +288,7 @@ country_event = {
 
 country_event = {
 	id = tutorial.events.20
-	title = "Торговля Ресурсами"
+	title = tutorial.events.20.title
 	desc = tutorial.events.20.d
 	
 	is_triggered_only = yes
@@ -303,7 +303,7 @@ country_event = {
 
 country_event = {
 	id = tutorial.events.21
-	title = "Офицерский Корпус"
+	title = tutorial.events.21.title
 	desc = tutorial.events.21.d
 	
 	is_triggered_only = yes
@@ -318,7 +318,7 @@ country_event = {
 
 country_event = {
 	id = tutorial.events.22
-	title = "Правительство и Лидеры"
+	title = tutorial.events.22.title
 	desc = tutorial.events.22.d
 	
 	is_triggered_only = yes
@@ -333,7 +333,7 @@ country_event = {
 
 country_event = {
 	id = tutorial.events.23
-	title = "Товары Народного Потребления"
+	title = tutorial.events.23.title
 	desc = tutorial.events.23.d
 	
 	is_triggered_only = yes
@@ -348,7 +348,7 @@ country_event = {
 
 country_event = {
 	id = tutorial.events.24
-	title = "Гражданские Фабрики"
+	title = tutorial.events.24.title
 	desc = tutorial.events.24.d
 	
 	is_triggered_only = yes
@@ -363,7 +363,7 @@ country_event = {
 
 country_event = {
 	id = tutorial.events.25
-	title = "Военные Фабрики"
+	title = tutorial.events.25.title
 	desc = tutorial.events.25.d
 	
 	is_triggered_only = yes
@@ -378,7 +378,7 @@ country_event = {
 
 country_event = {
 	id = tutorial.events.26
-	title = "Верфи"
+	title = tutorial.events.26.title
 	desc = tutorial.events.26.d
 	
 	is_triggered_only = yes
