@@ -13,7 +13,7 @@ TUT_tutorial_category = {
 
 		}
 		
-		priority = 10
+		priority = 100
 		
 		cost = 0
 		
@@ -207,7 +207,7 @@ TUT_tutorial_category = {
 
 		}
 		
-		priority = 10
+		priority = 99
 		
 		cost = 0
 		
@@ -471,7 +471,7 @@ TUT_tutorial_category = {
 
 		}
 		
-		priority = 10
+		priority = 99
 		
 		cost = 0
 		
