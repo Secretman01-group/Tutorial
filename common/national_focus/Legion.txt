@@ -1,0 +1,211 @@
+focus_tree = {
+	id = legion_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = TUT
+		}
+	}
+	
+	default = no
+	
+	continuous_focus_position = { x = 50 y = 1000 }
+
+	focus = {
+		id = TUT_fascist_preserve_nationalistic_policies
+		icon = GFX_
+		x = 20
+		y = 2
+		#relative_position_id = AST_empower_the_workers
+		#mutually_exclusive = { focus = KCH_political_monarch_start }
+
+		available = { 
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 5
+		#prerequisite = { focus = AST_workers_paradise }
+
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		
+
+
+		}
+
+		
+				ai_will_do = {
+				}
+
+
+
+	}
+
+	focus = {
+		id = TUT_bill_of_robotic_rights
+		icon = GFX_
+		x = 0
+		y = 1
+		relative_position_id = TUT_fascist_preserve_nationalistic_policies
+		#mutually_exclusive = { focus = KCH_political_monarch_start }
+
+		available = { 
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 2
+		prerequisite = { focus = TUT_fascist_preserve_nationalistic_policies }
+
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		
+
+
+		}
+
+		
+				ai_will_do = {
+				}
+
+
+
+	}
+
+	focus = {#FASCIST PATH
+		id = TUT_bill_passes
+		icon = GFX_
+		x = 2
+		y = 1
+		relative_position_id = TUT_bill_of_robotic_rights
+		#mutually_exclusive = { focus = KCH_political_monarch_start }
+
+		available = { 
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 2
+		prerequisite = { focus = TUT_bill_of_robotic_rights }
+
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		
+
+
+		}
+
+		
+				ai_will_do = {
+				}
+
+
+
+	}
+
+	focus = {#ALTERNATE FASCIST PATH
+		id = TUT_bill_fails
+		icon = GFX_
+		x = -2
+		y = 1
+		relative_position_id = TUT_bill_of_robotic_rights
+		#mutually_exclusive = { focus = KCH_political_monarch_start }
+
+		available = { 
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 2
+		prerequisite = { focus = TUT_bill_of_robotic_rights }
+
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		
+
+
+		}
+
+		
+				ai_will_do = {
+				}
+
+
+
+	}
+
+	focus = {
+		id = TUT_regain_support
+		icon = GFX_
+		x = 2
+		y = 1
+		relative_position_id = TUT_bill_fails
+		#mutually_exclusive = { focus = KCH_political_monarch_start }
+
+		available = { 
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 2
+		prerequisite = { focus = TUT_bill_fails or = TUT_bill_passes }
+
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		
+
+
+		}
+
+		
+				ai_will_do = {
+				}
+
+
+
+	}
+
+
+
+
+
+}#НЕ ТРОЖЬ

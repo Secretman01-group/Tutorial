@@ -1,0 +1,16 @@
+characters = {
+    TUT_bot_leader = {
+        name = "Робот"
+        portraits = {
+			civilian = { 
+				large="gfx/leaders/Portrait_PLACEHOLDER_large.tga"
+			}
+		}
+		country_leader = {
+			ideology = gen_nazism
+			traits = {  }
+			expire = "1965.1.1.1" 
+		}
+    }
+	
+}
