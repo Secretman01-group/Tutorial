@@ -93,7 +93,7 @@ focus_tree = {
 	focus = {#FASCIST PATH
 		id = TUT_bill_passes
 		icon = GFX_
-		x = 2
+		x = 3
 		y = 1
 		relative_position_id = TUT_bill_of_robotic_rights
 		#mutually_exclusive = { focus = KCH_political_monarch_start }
@@ -128,10 +128,199 @@ focus_tree = {
 
 	}
 
+	focus = {
+		id = TUT_hunt_resistance
+		icon = GFX_
+		x = 1
+		y = 1
+		relative_position_id = TUT_bill_passes
+		#mutually_exclusive = { focus = KCH_political_monarch_start }
+
+		available = { 
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 5
+		prerequisite = { focus = TUT_bill_passes }
+
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		
+
+
+		}
+
+		
+				ai_will_do = {
+				}
+
+
+
+	}
+
+	focus = {
+		id = TUT_clamp_down_on_opposition_in_senate
+		icon = GFX_
+		x = -1
+		y = 1
+		relative_position_id = TUT_hunt_resistance
+		#mutually_exclusive = { focus = KCH_political_monarch_start }
+
+		available = { 
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 5
+		prerequisite = { focus = TUT_hunt_resistance }
+
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		
+
+
+		}
+
+		
+				ai_will_do = {
+				}
+
+
+
+	}
+
+	focus = {
+		id = TUT_gain_support_from_states
+		icon = GFX_
+		x = 1
+		y = 1
+		relative_position_id = TUT_hunt_resistance
+		#mutually_exclusive = { focus = KCH_political_monarch_start }
+
+		available = { 
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 5
+		prerequisite = { focus = TUT_hunt_resistance }
+
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		
+
+
+		}
+
+		
+				ai_will_do = {
+				}
+
+
+
+	}
+
+	focus = {
+		id = TUT_emergency_powers_act
+		icon = GFX_
+		x = -1
+		y = 1
+		relative_position_id = TUT_gain_support_from_states
+		#mutually_exclusive = { focus = KCH_political_monarch_start }
+
+		available = { 
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 5
+		prerequisite = { focus = TUT_clamp_down_on_opposition_in_senate }
+		prerequisite = { focus = TUT_gain_support_from_states }
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		
+
+
+		}
+
+		
+				ai_will_do = {
+				}
+
+
+
+	}
+
+	focus = {
+		id = TUT_ban_opposition_parties
+		icon = GFX_
+		x = 1
+		y = 1
+		relative_position_id = TUT_emergency_powers_act
+		#mutually_exclusive = { focus = KCH_political_monarch_start }
+
+		available = { 
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 5
+		prerequisite = { focus = TUT_emergency_powers_act }
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		
+
+
+		}
+
+		
+				ai_will_do = {
+				}
+
+
+
+	}
+
 	focus = {#ALTERNATE FASCIST PATH
 		id = TUT_bill_fails
 		icon = GFX_
-		x = -2
+		x = -3
 		y = 1
 		relative_position_id = TUT_bill_of_robotic_rights
 		#mutually_exclusive = { focus = KCH_political_monarch_start }
@@ -169,7 +358,7 @@ focus_tree = {
 	focus = {
 		id = TUT_regain_support
 		icon = GFX_
-		x = 2
+		x = 3
 		y = 1
 		relative_position_id = TUT_bill_fails
 		#mutually_exclusive = { focus = KCH_political_monarch_start }
@@ -182,7 +371,7 @@ focus_tree = {
 
 		}
 
-		cost = 2
+		cost = 5
 		prerequisite = { focus = TUT_bill_fails or = TUT_bill_passes }
 
 		
@@ -203,6 +392,88 @@ focus_tree = {
 
 
 	}
+
+	focus = {
+		id = TUT_institute_police_action
+		icon = GFX_
+		x = 5
+		y = 1
+		relative_position_id = TUT_bill_fails
+		#mutually_exclusive = { focus = KCH_political_monarch_start }
+
+		available = { 
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 5
+		prerequisite = { focus = TUT_bill_fails or = TUT_bill_passes }
+
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		
+
+
+		}
+
+		
+				ai_will_do = {
+				}
+
+
+
+	}
+
+	focus = {
+		id = TUT_appease_the_army
+		icon = GFX_
+		x = 1
+		y = 1
+		relative_position_id = TUT_bill_fails
+		#mutually_exclusive = { focus = KCH_political_monarch_start }
+
+		available = { 
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 5
+		prerequisite = { focus = TUT_bill_fails or = TUT_bill_passes }
+
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		
+
+
+		}
+
+		
+				ai_will_do = {
+				}
+
+
+
+	}
+
+
+
+
+
+
 
 
 
