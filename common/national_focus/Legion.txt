@@ -317,7 +317,124 @@ focus_tree = {
 
 	}
 
-	focus = {#ALTERNATE FASCIST PATH
+	focus = {
+		id = TUT_total_war
+		icon = GFX_
+		x = -1
+		y = 1
+		relative_position_id = TUT_emergency_powers_act
+		#mutually_exclusive = { focus = KCH_political_monarch_start }
+
+		available = { 
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 5
+		prerequisite = { focus = TUT_emergency_powers_act }
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		
+
+
+		}
+
+		
+				ai_will_do = {
+				}
+
+
+
+	}
+
+	focus = {
+		id = TUT_increase_legitimacy
+		icon = GFX_
+		x = 1
+		y = 1
+		relative_position_id = TUT_total_war
+		#mutually_exclusive = { focus = KCH_political_monarch_start }
+
+		available = { 
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 5
+		prerequisite = { focus = TUT_total_war }
+		prerequisite = { focus = TUT_ban_opposition_parties }
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		
+
+
+		}
+
+		
+				ai_will_do = {
+				}
+
+
+
+	}
+
+
+
+
+
+
+	focus = {
+		id = TUT_unify_legion
+		icon = GFX_
+		x = -4
+		y = 1
+		relative_position_id = TUT_increase_legitimacy
+		#mutually_exclusive = { focus = KCH_political_monarch_start }
+
+		available = { 
+
+		}
+
+		bypass = {
+
+		}
+
+		cost = 5
+		prerequisite = { focus = TUT_increase_legitimacy }#ADD_OR=
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		
+
+
+		}
+
+		
+				ai_will_do = {
+				}
+
+
+
+	}
+
+	focus = {#DEMOCRACY\MONARCHY PATH
 		id = TUT_bill_fails
 		icon = GFX_
 		x = -3
@@ -355,7 +472,7 @@ focus_tree = {
 
 	}
 
-	focus = {
+	focus = {#JOINT
 		id = TUT_regain_support
 		icon = GFX_
 		x = 3
@@ -471,6 +588,123 @@ focus_tree = {
 
 
 
+
+# <<<POST-UNIFICATION>>>
+
+	focus = {
+		id = TUT_unity
+		icon = GFX_
+		x = 17
+		y = 0
+		relative_position_id = TUT_fascist_preserve_nationalistic_policies
+		#mutually_exclusive = { focus = KCH_political_monarch_start }
+
+		available = { 
+		has_completed_focus = TUT_unify_legion
+		}
+
+		bypass = {
+
+		}
+
+		cost = 5
+		#prerequisite = { focus = TUT_unify_legion }
+
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		
+
+
+		}
+
+		
+				ai_will_do = {
+				}
+
+
+
+	}
+
+
+	focus = {#FASCIST POLITICAL
+		id = TUT_post_unity_political
+		icon = GFX_
+		x = -4
+		y = 1
+		relative_position_id = TUT_unity
+		#mutually_exclusive = { focus = KCH_political_monarch_start }
+
+		available = { 
+		
+		}
+
+		bypass = {
+
+		}
+
+		cost = 5
+		prerequisite = { focus = TUT_unity }
+
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		
+
+
+		}
+
+		
+				ai_will_do = {
+				}
+
+
+
+	}
+
+	focus = {#FASCIST POLITICAL
+		id = TUT_post_unity_political
+		icon = GFX_
+		x = 4
+		y = 1
+		relative_position_id = TUT_unity
+		#mutually_exclusive = { focus = KCH_political_monarch_start }
+
+		available = { 
+		
+		}
+
+		bypass = {
+
+		}
+
+		cost = 5
+		prerequisite = { focus = TUT_unity }
+
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		
+
+
+		}
+
+		
+				ai_will_do = {
+				}
+
+
+
+	}
 
 
 
